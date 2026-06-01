@@ -1,0 +1,12 @@
+﻿namespace WebApplication1.Models
+{
+    public class UpdateMovieDto
+    {
+        public string? Title { get; set; }
+        public string? Genre { get; set; }
+        public int?  Year { get; set; }
+        public string? Director { get; set; }
+        public double?  Rating { get; set; }
+        public List<FilmingLocationDto>? FilmingLocations { get; set; } 
+    }
+}

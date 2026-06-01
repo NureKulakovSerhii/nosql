@@ -1,0 +1,289 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\sergio\\documents\\6-semestr\\nosql\\\u043B\u04401-2\\solution\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\sergio\\documents\\6-semestr\\nosql\\\u043B\u04401-2\\solution\\webapplication1\\webapplication1\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\sergio\\documents\\6-semestr\\nosql\\\u043B\u04401-2\\solution\\webapplication1\\webapplication1\\models\\updatemoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\updatemoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\sergio\\documents\\6-semestr\\nosql\\\u043B\u04401-2\\solution\\webapplication1\\webapplication1\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\sergio\\documents\\6-semestr\\nosql\\\u043B\u04401-2\\solution\\webapplication1\\webapplication1\\models\\moviefulldetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\moviefulldetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\sergio\\documents\\6-semestr\\nosql\\\u043B\u04401-2\\solution\\webapplication1\\webapplication1\\models\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\sergio\\documents\\6-semestr\\nosql\\\u043B\u04401-2\\solution\\webapplication1\\webapplication1\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\sergio\\documents\\6-semestr\\nosql\\\u043B\u04401-2\\solution\\webapplication1\\webapplication1\\models\\geopoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\geopoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\sergio\\documents\\6-semestr\\nosql\\\u043B\u04401-2\\solution\\webapplication1\\webapplication1\\models\\filminglocationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\filminglocationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\sergio\\documents\\6-semestr\\nosql\\\u043B\u04401-2\\solution\\webapplication1\\webapplication1\\models\\filminglocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\filminglocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\sergio\\documents\\6-semestr\\nosql\\\u043B\u04401-2\\solution\\webapplication1\\webapplication1\\models\\createmoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\createmoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\sergio\\documents\\6-semestr\\nosql\\\u043B\u04401-2\\solution\\webapplication1\\webapplication1\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\sergio\\documents\\6-semestr\\nosql\\\u043B\u04401-2\\solution\\webapplication1\\webapplication1\\wwwroot\\images\\0b377fe1-ebc8-4adf-b2a2-f595f3296b19.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\images\\0b377fe1-ebc8-4adf-b2a2-f595f3296b19.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\sergio\\documents\\6-semestr\\nosql\\\u043B\u04401-2\\solution\\webapplication1\\webapplication1\\wwwroot\\images\\0b40f14d-0c60-47d4-8f83-5b22b4a18597.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\images\\0b40f14d-0c60-47d4-8f83-5b22b4a18597.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\sergio\\documents\\6-semestr\\nosql\\\u043B\u04401-2\\solution\\webapplication1\\webapplication1\\wwwroot\\images\\354a25bb-8f74-4a6d-9bb2-6b58444270f5.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\images\\354a25bb-8f74-4a6d-9bb2-6b58444270f5.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\sergio\\documents\\6-semestr\\nosql\\\u043B\u04401-2\\solution\\webapplication1\\webapplication1\\wwwroot\\images\\a6cd94e8-b28d-43aa-a332-8603029b674f.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\images\\a6cd94e8-b28d-43aa-a332-8603029b674f.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\sergio\\documents\\6-semestr\\nosql\\\u043B\u04401-2\\solution\\webapplication1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FilmingLocation.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\Models\\FilmingLocation.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\FilmingLocation.cs",
+              "ToolTip": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\Models\\FilmingLocation.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\FilmingLocation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T13:21:49.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FilmingLocationDto.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\Models\\FilmingLocationDto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\FilmingLocationDto.cs",
+              "ToolTip": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\Models\\FilmingLocationDto.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\FilmingLocationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T13:29:48.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T09:18:00.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MovieDto.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\Models\\MovieDto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\MovieDto.cs",
+              "ToolTip": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\Models\\MovieDto.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\MovieDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T10:13:40.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GeoPoint.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\Models\\GeoPoint.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\GeoPoint.cs",
+              "ToolTip": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\Models\\GeoPoint.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\GeoPoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T13:22:31.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\Models\\Movie.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T09:41:44.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MovieFullDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\Models\\MovieFullDetailsDto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\MovieFullDetailsDto.cs",
+              "ToolTip": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\Models\\MovieFullDetailsDto.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\MovieFullDetailsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T11:12:00.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Review.cs",
+              "ToolTip": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\Models\\Review.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T11:12:12.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateMovieDto.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\Models\\UpdateMovieDto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\UpdateMovieDto.cs",
+              "ToolTip": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\Models\\UpdateMovieDto.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\UpdateMovieDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T10:17:59.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\Services\\MovieService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\MovieService.cs",
+              "ToolTip": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\Services\\MovieService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\MovieService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAABcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T09:46:35.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateMovieDto.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\Models\\CreateMovieDto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\CreateMovieDto.cs",
+              "ToolTip": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\Models\\CreateMovieDto.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\CreateMovieDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T09:18:54.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\MoviesController.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAmwB4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T09:52:13.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "354a25bb-8f74-4a6d-9bb2-6b58444270f5.png",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\wwwroot\\images\\354a25bb-8f74-4a6d-9bb2-6b58444270f5.png",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\images\\354a25bb-8f74-4a6d-9bb2-6b58444270f5.png",
+              "ToolTip": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\wwwroot\\images\\354a25bb-8f74-4a6d-9bb2-6b58444270f5.png",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\images\\354a25bb-8f74-4a6d-9bb2-6b58444270f5.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-05-29T11:04:23.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "a6cd94e8-b28d-43aa-a332-8603029b674f.png",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\wwwroot\\images\\a6cd94e8-b28d-43aa-a332-8603029b674f.png",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\images\\a6cd94e8-b28d-43aa-a332-8603029b674f.png",
+              "ToolTip": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\wwwroot\\images\\a6cd94e8-b28d-43aa-a332-8603029b674f.png",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\images\\a6cd94e8-b28d-43aa-a332-8603029b674f.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-05-29T11:14:26.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "0b377fe1-ebc8-4adf-b2a2-f595f3296b19.png",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\wwwroot\\images\\0b377fe1-ebc8-4adf-b2a2-f595f3296b19.png",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\images\\0b377fe1-ebc8-4adf-b2a2-f595f3296b19.png",
+              "ToolTip": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\wwwroot\\images\\0b377fe1-ebc8-4adf-b2a2-f595f3296b19.png",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\images\\0b377fe1-ebc8-4adf-b2a2-f595f3296b19.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-05-29T11:14:35.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "0b40f14d-0c60-47d4-8f83-5b22b4a18597.png",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\wwwroot\\images\\0b40f14d-0c60-47d4-8f83-5b22b4a18597.png",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\images\\0b40f14d-0c60-47d4-8f83-5b22b4a18597.png",
+              "ToolTip": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\wwwroot\\images\\0b40f14d-0c60-47d4-8f83-5b22b4a18597.png",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\images\\0b40f14d-0c60-47d4-8f83-5b22b4a18597.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-05-29T11:14:34.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "C:\\Users\\Sergio\\Documents\\6-semestr\\NoSQl\\\u041B\u04201-2\\Solution\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-09T09:39:30.902Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
