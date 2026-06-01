@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+/* Головний контейнер картки */
+.cellphone-container {  
+  width: 375px;
+  height: 660px;
+  background-color: #1e1b26;
+  margin: 20px auto;
+  box-shadow: 5px 5px 115px -14px black;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.cellphone-container.editing-mode {
+  box-shadow: 0 0 15px rgba(254, 65, 65, 0.4);
+  border: 1px solid rgba(254, 65, 65, 0.3);
+}
+
+/* Елементи керування (кнопки зверху) */
+.movie-controls {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  z-index: 999;
+  display: flex;
+  gap: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.cellphone-container:hover .movie-controls,
+.cellphone-container.editing-mode .movie-controls {
+  opacity: 1;
+}
+
+.control-btn {
+  background: rgba(30, 27, 38, 0.85);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  transition: transform 0.2s;
+}
+
+.control-btn:hover {
+  transform: scale(1.1);
+}
+
+.control-btn.edit i { color: #41fe70; }
+.control-btn.delete i { color: #fe4141; }
+.control-btn.save i { color: #2ecc71; }
+.control-btn.cancel i { color: #e74c3c; }
+
+/* Зображення фільму */
+.movie-img {
+  width: 100%;
+  height: 380px;
+   background-size: cover;     /* Або contain, якщо хочеш бачити постер повністю з рамками */
+  background-position: center; /* Центрує фонове зображення */
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.movie-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 38%, rgba(30,27,38,0.88) 70%, rgba(30,27,38,1) 100%);
+  z-index: 2;
+}
+
+/* Текстовий блок фільму */
+.text-movie-cont {
+  padding: 0px 18px;
+  position: relative;
+  z-index: 3;
+  margin-top: -60px;
+}
+
+/* Вмикаємо прокрутку текстової зони лише під час редагування, щоб вмістити всі форми */
+.text-movie-cont.scrollable-edit-mode {
+  max-height: 330px;
+  overflow-y: auto;
+  padding-bottom: 20px;
+  margin-top: -50px; /* Трохи піднімаємо для більшого простору */
+}
+
+.mr-grid { 
+  width: 100%; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Стандартні шрифти та стилі відображення */
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #e7e7e7;
+  font-size: 28px;
+  font-weight: 400;
+  margin: 0;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  color: #fe4141;
+  font-size: 12px;
+  margin: 10px 0 5px 0;
+  letter-spacing: 1px;
+}
+
+.movie-gen {
+  margin: 5px 0 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  color: #8a8a8a;
+}
+
+.movie-rating-badge {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #ffb400;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.movie-director {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  color: #b3b3b3;
+  font-style: italic;
+  margin: 5px 0;
+}
+
+.locations-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.location-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: #2a2635;
+  color: #e7e7e7;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+  border: 1px solid #3d374e;
+  transition: all 0.2s ease;
+}
+
+.location-badge:hover {
+  background: #fe4141;
+  border-color: #fe4141;
+  transform: translateX(3px);
+}
+
+.location-badge i {
+  font-size: 14px;
+}
+
+/* ==========================================================================
+   ЧИСТІ СТИЛІ ДЛЯ РЕЖИМУ РЕДАГУВАННЯ (БЕЗ ДУБЛЮВАННЯ)
+   ========================================================================== */
+
+.edit-form-inside {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 10px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+/* Базове стилізування інпутів під звичайний текст картки */
+.edit-form-inside input {
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.3) !important;
+  color: #fff !important;
+  padding: 4px 0 !important;
+  outline: none;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 0 !important;
+}
+
+.edit-form-inside input:focus {
+  border-bottom-color: #fe4141 !important;
+}
+
+/* Наслідування h1 заголовка */
+.edit-input-h1 {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  color: #e7e7e7 !important;
+  margin-bottom: 2px;
+}
+
+/* Наслідування рядка Рік / Жанр */
+.edit-row-gen {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 2px;
+}
+
+.edit-input-gen {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 400;
+  color: #8a8a8a !important;
+  width: 50px !important;
+  text-align: center;
+}
+
+.edit-input-gen.genre-width {
+  width: 130px !important;
+  text-align: left;
+}
+
+.gen-separator {
+  color: #8a8a8a;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Наслідування Режисера */
+.edit-director-container {
+  display: flex;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  color: #b3b3b3;
+  margin-bottom: 5px;
+  font-style: italic;
+}
+
+.director-label {
+  margin-right: 4px;
+  white-space: nowrap;
+}
+
+.edit-input-director {
+  font-size: 13px !important;
+  color: #b3b3b3 !important;
+  font-style: italic;
+}
+
+/* Секція локацій всередині форми */
+.edit-locations-section {
+  margin-top: 5px;
+  border-top: 1px dashed #3f444e;
+  padding-top: 8px;
+}
+
+/* Список доданих локацій із СУВОРИМ обмеженням висоти та внутрішнім скролом */
+.edit-locations-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 6px 0;
+  max-height: 65px; /* Затискаємо список, щоб він не виштовхував підформу */
+  overflow-y: auto;
+}
+
+.edit-location-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.edit-loc-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  color: #e7e7e7;
+  word-break: break-word;
+}
+
+.delete-loc-icon {
+  font-size: 16px !important;
+  color: #fe4141;
+  cursor: pointer;
+}
+
+/* Блок додавання нової локації (завжди зафіксований внизу форми) */
+.add-loc-subform {
+  background: #1a1c20;
+  padding: 8px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border: 1px solid #2b2f36;
+}
+
+/* Задаємо класичні непрозорі інпути для полів додавання нових точок */
+.add-loc-subform input {
+  background: #2b2f36 !important;
+  border: 1px solid #3f444e !important;
+  border-radius: 4px !important;
+  padding: 5px 8px !important;
+  color: #fff !important;
+  font-size: 11px !important;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.add-loc-subform input:focus {
+  border-color: #fe4141 !important;
+}
+
+/* Контейнер сітки Lat/Lng */
+.subform-row-coords {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.subform-row-coords input {
+  width: 100% !important;
+  box-sizing: border-box;
+}
+
+/* Яскрава фірмова кнопка додавання */
+.add-loc-inline-btn {
+  background: #fe4141;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px;
+  font-size: 11px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+  width: 100%;
+}
+
+.add-loc-inline-btn:hover {
+  background: #e03535;
+}
+
+/* Тонкі красиві скролбари */
+.text-movie-cont.scrollable-edit-mode::-webkit-scrollbar,
+.edit-locations-list::-webkit-scrollbar {
+  width: 4px;
+}
+.text-movie-cont.scrollable-edit-mode::-webkit-scrollbar-thumb,
+.edit-locations-list::-webkit-scrollbar-thumb {
+  background: rgba(254, 65, 65, 0.4);
+  border-radius: 2px;
+}
