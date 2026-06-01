@@ -1,0 +1,194 @@
+[
+  {
+    "ContainingType": "WebApplication1.Controllers.MoviesController",
+    "Method": "GetMovies",
+    "RelativePath": "api/Movies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[WebApplication1.Models.Movie, WebApplication1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.MoviesController",
+    "Method": "GetMovieById",
+    "RelativePath": "api/Movies/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplication1.Models.Movie",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.MoviesController",
+    "Method": "UpdateMovie",
+    "RelativePath": "api/Movies/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateMovieDto",
+        "Type": "WebApplication1.Models.UpdateMovieDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.MoviesController",
+    "Method": "GetFullInfo",
+    "RelativePath": "api/Movies/{id}/full-details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.MoviesController",
+    "Method": "CreateMovie",
+    "RelativePath": "api/Movies/crate-film",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Genre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Director",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Rating",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "FilmingLocations",
+        "Type": "System.Collections.Generic.List\u00601[[WebApplication1.Models.FilmingLocationDto, WebApplication1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.MoviesController",
+    "Method": "DeleteMovie",
+    "RelativePath": "api/Movies/delete-film/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.MoviesController",
+    "Method": "GetMoviesNearLocation",
+    "RelativePath": "api/Movies/near",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "latitude",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "longitude",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "distanceMeters",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.MoviesController",
+    "Method": "SearchFilms",
+    "RelativePath": "api/Movies/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "genre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "yearFrom",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
